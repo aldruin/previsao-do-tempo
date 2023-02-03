@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /*altura*/
+    width: 100vw;   /*largura*/
+    background-image: url(https://source.unsplash.com/1920x1080/?landscape/);   /*Site que fornece as imagens aleatórias para o plano de fundo*/
+}
+
+.caixa-maior {
+
+    background-color: #000000;  /* Cor de fundo */
+    width: 95%; /*Largura padrão em % da Página*/
+    max-width: 400px;   /*    Largura Máxima     */
+    border-radius: 10px; /*raio das curvas, borda arredondada*/
+    opacity: 0.8;   /*transparencia do item*/
+    padding: 20px;  /*espaçamento de dentro da caixa maior*/
+}
+
+.pesquisa {
+    border: none;   /*borda do elemento*/
+    outline: none;  /* borda quando seleciona o elemento*/
+    padding: 10px;  /*espaçamento interno*/
+    border-radius: 24px;    /*arredonda as bordas*/
+    font-size: 20px; /* tamanho da fonte*/
+    background-color: #b4b4b436; /*cor de fundo*/
+    color: #fff; /*cor de texto*/
+    width: calc(100% - 60px); /*tamanho padrão*/
+}
+
+.lupa {
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.botao-lupa {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #dbdbdb7a;
+    float: right;
+    cursor: pointer;
+}
+
+.botao-lupa:hover {
+    background-color: #c7c7c7a8;
+}
+
+.caixa-menor {
+    margin-top: 20px;
+}
+
+.caixa-descricao {
+    display:flex;
+    margin-top: 30px;
+    align-items:center;
+}
+
+.cidade {
+
+    color: white;
+    font-size: 28px;
+    margin-top: 3px;
+}
+
+.temperatura {
+
+    color: #fff;
+    margin-top: 30px;
+}
+
+.descricao {
+
+    color: #fff;
+    text-transform:capitalize; /*Deixa a primeira letra em Maiuscula*/
+
+}
+
+.umidade {
+    color: #fff;
+    margin-top: 30px;
+}
+
+
