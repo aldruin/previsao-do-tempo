@@ -1,6 +1,6 @@
 '''
 @author - aldruinn
-exercicio 070 - aula 15 - python.3 - curso em video
+exercicio 070 da aula 15 do mundo 02 de python.3 - curso em video
 '''
 
 # Variaveis
