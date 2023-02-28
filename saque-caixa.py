@@ -20,7 +20,7 @@ cedulas_total = 0
 # Loop de iteração em lista
 for cedulas in cedulas_lista:
 
-    # Estrutura de repetição com reste lógico
+    # Estrutura de repetição com teste lógico
     while True:
 
         # Define quantidade de notas
