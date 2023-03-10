@@ -5,7 +5,7 @@ Exercicio do curso em video, cujo precisei criar uma lista de palavras sem acent
 
 # Dados
 palavras = ("abacaxi", "banana", "cenoura", "dente", "elefante", "futebol", "guitarra", "hotel", "igreja",
-            "jogador", "ketchup", "limão", "melancia", "navio", "ouro", "pessoa", "queijo", "roda", "sapato", "tigre")
+            "jogador", "ketchup", "melancia", "navio", "ouro", "pessoa", "queijo", "roda", "sapato", "tigre")
 vogais = ("a", "e", "i", "o", "u")
 
 # Laço de iteração 'palavra' em 'lista de palavras'
